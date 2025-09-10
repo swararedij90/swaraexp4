@@ -8,7 +8,7 @@ stages {
         }
          stage('Run') {
             steps {
-            bat 'javac hello.java'
+            bat 'javac hello'
             }
         }
     }
