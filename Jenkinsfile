@@ -3,12 +3,12 @@ agent any
 stages {
         stage('Compile') {
             steps {
-            bat 'javac hello.java'
+            bat 'javac HelloWorld.java'
             }
         }
          stage('Run') {
             steps {
-            bat 'javac hello'
+            bat 'javac HelloWorld'
             }
         }
     }
